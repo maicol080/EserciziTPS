@@ -1,0 +1,11 @@
+let m = prompt('Inserisci il coefficiente m:');
+let c = prompt('Inserisci il coefficiente c:');
+let y1 = m*(-1)+c;
+let y2 = m*10+c;
+let xY = 0;
+let yY = c;
+let xX = -c/m;
+console.log('Per x = -1, y = ' + y1);
+console.log('Per x = 10, y = ' + y2);
+console.log('Intersezione con asse Y: (' + xY + ', ' + yY + ')');
+console.log('Intersezione con asse X: (' + xX + ', ' + xY + ')');
